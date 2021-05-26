@@ -1,3 +1,13 @@
 ﻿{
-
+  "$schema": "https://raw.githubusercontent.com/beat-saber-modding-group/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "ImageCoverExpander",
+  "name": "ImageCoverExpander",
+  "author": "affederaffe",
+  "version": "0.0.1",
+  "description": "Expands the cover image in the song selection",
+  "gameVersion": "1.15.0",
+  "dependsOn": {
+    "BSIPA": "^4.1.6",
+    "SiraUtil": "^2.5.3"
+  }
 }
