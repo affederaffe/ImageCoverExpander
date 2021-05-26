@@ -1,0 +1,15 @@
+::from ./bsinstalldir.txt
+"Beat Saber_Data/Managed/
+""HMUI.dll?virt?alias=Beat Saber_Data\Managed\HMUI.dll
+""Main.dll?virt?alias=Beat Saber_Data\Managed\Main.dll
+""UnityEngine.
+"""dll?alias=Beat Saber_Data\Managed\UnityEngine.dll
+"""CoreModule.dll?alias=Beat Saber_Data\Managed\UnityEngine.CoreModule.dll
+"""UI.dll?alias=Beat Saber_Data\Managed\UnityEngine.UI.dll
+""Zenject.dll?alias=Beat Saber_Data\Managed\Zenject.dll
+""Zenject-usage.dll?alias=Beat Saber_Data\Managed\Zenject-usage.dll
+"Plugins/SiraUtil.dll?alias=Plugins\SiraUtil.dll
+
+::startopt
+"::resolveInHere Beat Saber_Data/Managed/
+""IPA.Loader.dll?alias=Beat Saber_Data\Managed\IPA.Loader.dll
