@@ -5,7 +5,7 @@
   "author": "affederaffe",
   "version": "1.0.0",
   "description": "Expands the cover image in the song selection",
-  "gameVersion": "1.16.1",
+  "gameVersion": "1.16.2",
   "dependsOn": {
     "BSIPA": "^4.1.6",
     "SiraUtil": "^2.5.5"
