@@ -1,6 +1,9 @@
-﻿using ImageCoverExpander.Installers;
+﻿using ImageCoverExpander.Configuration;
+using ImageCoverExpander.Installers;
 
 using IPA;
+using IPA.Config;
+using IPA.Config.Stores;
 
 using SiraUtil.Zenject;
 
@@ -12,9 +15,9 @@ namespace ImageCoverExpander
     public class Plugin
     {
         [Init]
-        public Plugin(Zenjector zenjector)
+        public Plugin(Config config, Zenjector zenjector)
         {
-            zenjector.OnMenu<ExpanderMenuInstaller>();
+            zenjector.OnMenu<ExpanderMenuInstaller>().WithParameters(config.Generated<PluginConfig>());
         }
     }
 }
