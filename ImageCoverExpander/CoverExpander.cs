@@ -37,12 +37,13 @@ namespace ImageCoverExpander
         private void OnDidChangeContent(StandardLevelDetailViewController _1, StandardLevelDetailViewController.ContentType _2)
         {
             _standardLevelDetailViewController.didChangeContentEvent -= OnDidChangeContent;
+            _coverArtwork.SetField("_skew", _config.Scew);
             _coverArtwork.SetField("_gradient", true);
             _coverArtwork.SetField("_color0", _config.GradientColor0);
             _coverArtwork.SetField("_color1", _config.GradientColor1);
             RectTransform rectTransform = _coverArtwork.rectTransform;
             rectTransform.sizeDelta = new Vector2(60f, 60f);
-            rectTransform.localPosition = new Vector3(-38.5f, -57f, 0f);
+            rectTransform.localPosition = new Vector3(-34f - (_config.Scew * 25f), -57f, 0f);
             Transform transform = _coverArtwork.transform;
             transform.SetAsFirstSibling();
             transform.localScale = new Vector3(1.15f, 1f, 1f);

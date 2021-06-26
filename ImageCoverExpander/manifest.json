@@ -3,7 +3,7 @@
   "id": "ImageCoverExpander",
   "name": "ImageCoverExpander",
   "author": "affederaffe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Expands the cover image in the song selection",
   "gameVersion": "1.16.2",
   "dependsOn": {
